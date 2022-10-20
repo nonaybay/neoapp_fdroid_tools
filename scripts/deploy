@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+clear && printf "\nupdating...\n" && fdroid update -c -q
+clear && printf "\nupdating...\n" && fdroid update -q
+clear && printf "\ndeploying...\n" && fdroid deploy -v
